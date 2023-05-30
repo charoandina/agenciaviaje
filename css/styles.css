@@ -1,0 +1,313 @@
+/*/ GENERALES /*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F68712;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.barra {
+    width: 70%;
+    height: 0.5rem;
+    background-color: #022179;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+/*/ NAV /*/
+
+nav{
+    height: 10rem;
+    background-color: #0137cb;
+}
+
+.logo {
+    height: 15rem;
+    width: 15rem;
+}
+
+
+ul li a {
+    margin: 1rem 3rem 0 5rem;
+    font-size: 1.2rem;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    color: #022179;
+}
+
+ul li a:hover {
+    transition: 1s;
+    color: #F68712;
+}
+
+/*/ MAIN (RESERVAS DESTACADAS-BUSCADOR) /*/
+
+.h2-index {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #022179;
+    background-color: #F68712;
+    height: auto;
+    width: 22rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin-bottom: -0.3rem;
+    padding: 1.2rem;
+}
+
+.p-index {
+    color: white;
+    background-color: #F68712;
+    height: auto;
+    width: 45rem;
+    border-radius: 0rem 2rem 2rem 2rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    margin-top: -2rem;
+}
+
+.busqueda-index {
+    background-color: #022179;
+    color: white;
+    height: 17rem;
+    width: 30rem;
+    border-radius: 1rem;
+    box-shadow: none;
+}
+
+.boton-index{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-color:inherit;
+    box-shadow: none;
+}
+
+.boton-index:hover{
+    background-color: #F68712;
+    border-color: #F68712;
+    transition: 0.3s;
+}
+
+.select-index {
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.index-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.reservas-index {
+    width: 30rem;
+    height: 28rem;
+    background-color: rgba(2,33,121,0.5);
+    border-radius: 2rem;
+    margin: 5rem 0 2rem 2rem;
+}
+
+.h2-aside {
+    color:#F68712;
+    font-size: 2rem;
+    font-family: 'Fredoka', sans-serif;
+    margin-top: 1rem;
+}
+
+.div-aside {
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    height: 3rem;
+    width: 29rem;
+}
+
+.icono-bandera {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 0.3rem;
+}
+
+.p-aside {
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    margin-right: 0.3rem;
+}
+
+.p2-aside {
+    text-align: center;
+    font-weight: bold;
+    color: #F68712;
+}
+
+/*/ 2 BLOQUE - TEXTO /*/
+
+.p-frase {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: #022179;
+}
+
+.p-index-main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.p-frase2 {
+    text-align: center;
+}
+
+/*/ FOOTER /*/
+
+footer {
+    background-color:#0137cb;
+}
+
+.logo-footer {
+    height: 8rem;
+    width: 8rem;
+}
+
+.p-footer {
+    font-size: 0.8rem;
+    color: #010a22;
+}
+
+/*/ PAG EN CONSTRUCCION /*/
+
+.body-construccion{
+    background-color:#0137cb;
+}
+
+.logo-construccion{
+    margin-top: -2rem;
+    width: 35rem;
+    height: 35rem;
+}
+
+.h1-construccion{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3.5rem;
+    color: #022179;
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+}
+
+.p2-construccion {
+    color: #022179;
+    font-size: 1.5rem;
+}
+
+.animate__animated.animate__hinge {
+    animation-duration: 4s;
+    animation-delay: 1.5s;
+}
+
+/*/ OFERTAS /*/
+
+.h1-ofertas {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #F68712;
+    background-color: #022179;
+    height: auto;
+    width: 45rem;
+    border-radius: 2rem ;
+    margin-top: 2rem;
+    padding: 1.2rem;
+}
+
+.oferta-box {
+    width: 35rem;
+    height: 5rem;
+    background-color: #022179;
+    margin-top: 0.8rem;
+    border-radius: 2rem;
+}
+
+.bandera-oferta {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.p-oferta {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F68712;
+    margin-top: 1rem;
+}
+
+.oferta-box:hover {
+    width: 35.8rem;
+    height: 5.8rem;
+    transition: 0.5s;
+}
+
+/*/ CONTACTO /*/
+
+.contacto-contenedor {
+    background-color: #022179;
+    width: 82rem;
+    height: 11.5rem;
+    border-radius: 2rem;
+}
+
+
+.telefono {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.gps {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.p-contacto {
+    margin-left: 1rem;
+    color: #F68712;
+}
+
+.h1-contacto {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 3rem;
+    color: #022179;
+}
+
+.h2-contacto {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+    color: #F68712;
+    background-color: #022179;
+    width: fit-content;
+    height: 3rem;
+    margin-bottom: -0.5rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.p-ciudad-contacto {
+    font-size: 1.5rem;
+    color: #F68712;
+}

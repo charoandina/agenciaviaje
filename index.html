@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CEIBO Viajes</title>
+<!--  BOOSTRAP CDN -->   
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- MI CSS -->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+<body>
+
+
+<!-- NAV & LOGO -->
+<nav class="container-fluid d-flex flex-row align-items-center">
+    <div>
+        <a href="index.html"><img src="img/CEIBO.png" alt="Logo CEIBO" class="logo"></a>
+    </div>
+<ul class="nav justify-content-center d-flex">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="construccion.html">VUELOS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="ofertas.html">OFERTAS</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">CONTACTO</a>
+    </li>
+    </ul>
+</nav>
+
+<!-- MAIN -->
+
+<main class="d-flex flex-row justify-content-center">
+    <div>
+        <img src="img/img-main.jpg" alt="img main index" class="index-img">
+    </div>
+
+        <!-- Reservar gratis - Form -->
+    <div class="flex-column d-flex align-items-center mt-5">
+        <div>
+            <div class="mt-4">
+                <h2 class="h2-index">¡RESERVA GRATIS!</h2>
+                <p class="p-index">Si finalizas la reserva un agente te llama a ver si hay mejores ofertas y cuenta las formas de pago.</p>
+            </div>
+        </div>
+        
+        <div class="form-index mt-3">
+            <div class="busqueda-index container d-flex flex-column">
+                <select class="form-select select-index">
+                    <option selected>Origen</option>
+                    <option value="1">Honduras</option>
+                    <option value="2">Ecuador</option>
+                    <option value="3">Nicaragua</option>
+                    <option value="1">Rep. Dominicana</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Brasil</option>
+                    <option value="1">Cuba</option>
+                    <option value="2">Miami</option>
+                    <option value="3">Colombia</option>
+                    <option value="1">Peru</option>
+                    <option value="2">Paraguay</option>
+                    <option value="3">Bolivia</option>
+                    <option value="1">Venezuela</option>
+                    <option value="2">El Salvador</option>
+                    <option value="3">Chile</option>
+                </select>
+                <select class="form-select select-index">
+                    <option selected>Destino</option>
+                    <option value="1">Honduras</option>
+                    <option value="2">Ecuador</option>
+                    <option value="3">Nicaragua</option>
+                    <option value="1">Rep. Dominicana</option>
+                    <option value="2">Argentina</option>
+                    <option value="3">Brasil</option>
+                    <option value="1">Cuba</option>
+                    <option value="2">Miami</option>
+                    <option value="3">Colombia</option>
+                    <option value="1">Peru</option>
+                    <option value="2">Paraguay</option>
+                    <option value="3">Bolivia</option>
+                    <option value="1">Venezuela</option>
+                    <option value="2">El Salvador</option>
+                    <option value="3">Chile</option>
+                </select>
+                <select class="form-select select-index">
+                    <option selected>Fecha salida</option>
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                </select>
+                <select class="form-select select-index">
+                    <option selected>Fecha vuelta</option>
+                    <option value="1">Enero</option>
+                    <option value="2">Febrero</option>
+                    <option value="3">Marzo</option>
+                </select>
+                <div class="d-flex justify-content-around">
+                    <button class="boton-index">BUSCAR</button>
+                    <button class="boton-index">BORRAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Aside - Reservas destacadas -->
+    <div class="reservas-index d-flex flex-column align-items-center">
+        <div>
+            <h2 class="text-center h2-aside">RESERVAS DESTACADAS</h2>
+        </div>
+        <div class="div-aside d-flex flex-row justify-content-center align-items-center">
+            <div>
+                <img src="img/argentina.png" alt="bandera argentina" class="icono-bandera">
+            </div>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <p class="p-aside">DIEGO</p>
+                <p>viajará de Valencia a Buenos Aires por</p>
+                <p class="p2-aside mr-1">613 U$D</p>
+            </div>
+        </div>
+        <div class="div-aside d-flex flex-row justify-content-center align-items-center">
+            <div>
+                <img src="img/chile.png" alt="bandera chile" class="icono-bandera">
+            </div>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <p class="p-aside">JAIME</p>
+                <p>viajará de Lisboa a Viña del Mar por</p>
+                <p class="p2-aside">580 U$D</p>
+            </div>
+        </div>
+        <div class="div-aside d-flex flex-row justify-content-center align-items-center">
+            <div>
+                <img src="img/colombia.png" alt="bandera colombia" class="icono-bandera">
+            </div>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <p class="p-aside">JUAN</p>
+                <p>viajará de Barcelona a Barranquilla por</p>
+                <p class="p2-aside">845 U$D</p>
+            </div>
+        </div>
+        <div class="div-aside d-flex flex-row justify-content-center align-items-center">
+            <div>
+                <img src="img/venezuela.png" alt="bandera argentina" class="icono-bandera">
+            </div>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <p class="p-aside">MARIA</p>
+                <p>viajará de Amsterdam a Maracaibo por</p>
+                <p class="p2-aside">620 U$D</p>
+            </div>
+        </div>
+        <div class="div-aside d-flex flex-row justify-content-center align-items-center">
+            <div>
+                <img src="img/panama.png" alt="bandera chile" class="icono-bandera">
+            </div>
+            <div class="d-flex flex-row justify-content-center align-items-center mt-3">
+                <p class="p-aside">JOSE</p>
+                <p>viajará de Bruselas a Panamá City por</p>
+                <p class="p2-aside">803 U$D</p>
+            </div>
+        </div>
+</main>
+
+    <!-- Encuentra los mejores vuelos -->
+<div class="container-fluid p-index-main flex-column">
+    <p class="p-frase">¡Encuentra las mejores vuelos!</p>
+    <p class="p-frase2">Tus búsquedas generan mejores resultados, las reservas son gratis y una vez realizadas nos ponemos en contacto contigo para ayudarte.</p>
+</div>
+
+
+    <!-- Footer -->
+<footer class="container-fluid d-flex flex-row align-items-center">
+    <img src="img/CEIBO.png" alt="Logo CEIBO" class="logo-footer">
+    <p class="p-footer">Travel Ceibo SL - CIF B54678230 - Agencia de viajes on-line CV-Mm1984-A - Copyright © Todos los derechos reservados - info@ceiboviajes.com - Con sede en Calle Elda 50 - 03013 Alicante - España.</p>
+</footer>
+
+
+<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</body>
+</html>
